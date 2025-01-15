@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+Advanced To-Do Application
+An advanced, feature-rich To-Do application built with React, integrated with a public API, and managed using Redux for state management. This application provides a modern user interface, robust functionality, and responsiveness for seamless usage across devices.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Core Features
+Add Tasks: Add tasks with priorities (High, Medium, Low).
+View Tasks: Display all tasks in a categorized and user-friendly format.
+Delete Tasks: Remove individual tasks with a simple click.
+Prioritization: Tasks are visually distinguished by priority.
+Responsive Design: Fully functional on mobile, tablet, and desktop devices.
+Advanced Features
+API Integration: Fetch real-time data from a public API (e.g., weather) to enhance task relevance.
+User Authentication: Simulated login/logout functionality using Redux.
+Persistent Storage: Data saved in local storage for session persistence.
+State Management: Use of Redux and Redux Thunk for asynchronous actions and centralized state.
+Technologies Used
+React: Frontend framework for building UI components.
+Redux: State management for handling application-wide state.
+Redux Thunk: Middleware for handling asynchronous actions.
+CSS: Advanced styling using modern CSS practices (Flexbox, Grid).
+HTML5: Structuring the layout.
+Public API: Integrated API for real-time external data.
+Installation and Setup
+Clone the Repository
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+git clone https://github.com/your-username/advanced-todo-app.git
+cd advanced-todo-app
+Install Dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+npm install
+Run the Application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
+Open http://localhost:3000 in your browser to view the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Build the Application To create a production build:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm run build
+Folder Structure
+php
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+advanced-todo-app/
+├── public/               # Static files
+├── src/
+│   ├── components/       # React components (TaskInput, TaskList, etc.)
+│   ├── redux/            # Redux store, actions, reducers
+│   ├── styles/           # CSS files
+│   ├── App.js            # Main application file
+│   ├── index.js          # Entry point
+│   └── ...
+├── README.md             # Project documentation
+├── package.json          # Project dependencies and scripts
+└── ...
+Public API Used
+Weather API: Displays real-time weather conditions for outdoor tasks.
+API Documentation: https://open-meteo.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Home Page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Add Task
 
-## Learn More
+Responsive Design
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Deployment
+The app is deployed on vercel and accessible at:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Author
+Sparsh S. Pradhan
+GitHub Profile-https://github.com/SparshSPradhan
+LinkedIn Profile-https://www.linkedin.com/in/sparsh-singh-pradhan-8318b01b2/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
