@@ -12,7 +12,7 @@ function WeatherInfo() {
           {
             params: {
               q: 'Bangalore',
-              appid: 'YOUR_API_KEY',
+              appid: 'c18b6410bc855edd442c16bf4ced138b',
               units: 'metric',
             },
           }
